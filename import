@@ -1,0 +1,12 @@
+import json
+import pickle
+
+import dash
+import dash_bootstrap_components as dbc
+import dash_mantine_components as dmc
+import openai
+from dash import dcc, html
+
+from constants import redis_instance
+
+dash.register_page(__name__)
